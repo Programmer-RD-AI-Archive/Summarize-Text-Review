@@ -1,0 +1,193 @@
+2021-09-17 20:37:34,893 INFO    MainThread:53575 [internal.py:wandb_internal():89] W&B internal server running at pid: 53575, started at: 2021-09-17 20:37:34.893256
+2021-09-17 20:37:34,895 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: check_version
+2021-09-17 20:37:34,895 INFO    WriterThread:53575 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/run-2o8d7uo0.wandb
+2021-09-17 20:37:34,897 DEBUG   SenderThread:53575 [sender.py:send():182] send: header
+2021-09-17 20:37:34,897 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: check_version
+2021-09-17 20:37:35,504 DEBUG   SenderThread:53575 [sender.py:send():182] send: run
+2021-09-17 20:37:35,506 DEBUG   SenderThread:53575 [git.py:repo():33] git repository is invalid
+2021-09-17 20:37:35,998 INFO    SenderThread:53575 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files
+2021-09-17 20:37:35,998 INFO    SenderThread:53575 [sender.py:_start_run_threads():743] run started: 2o8d7uo0 with start time 1631891254
+2021-09-17 20:37:35,998 DEBUG   SenderThread:53575 [sender.py:send():182] send: summary
+2021-09-17 20:37:35,998 INFO    SenderThread:53575 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 20:37:35,999 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: run_start
+2021-09-17 20:37:36,002 DEBUG   HandlerThread:53575 [meta.py:__init__():40] meta init
+2021-09-17 20:37:36,002 DEBUG   HandlerThread:53575 [meta.py:__init__():54] meta init done
+2021-09-17 20:37:36,002 DEBUG   HandlerThread:53575 [meta.py:probe():211] probe
+2021-09-17 20:37:36,008 DEBUG   HandlerThread:53575 [git.py:repo():33] git repository is invalid
+2021-09-17 20:37:36,008 DEBUG   HandlerThread:53575 [meta.py:_save_code():90] save code
+2021-09-17 20:37:36,008 WARNING HandlerThread:53575 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-09-17 20:37:36,008 DEBUG   HandlerThread:53575 [meta.py:_save_pip():58] save pip
+2021-09-17 20:37:36,009 DEBUG   HandlerThread:53575 [meta.py:_save_pip():72] save pip done
+2021-09-17 20:37:36,009 DEBUG   HandlerThread:53575 [meta.py:_save_conda():79] save conda
+2021-09-17 20:37:37,001 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/wandb-summary.json
+2021-09-17 20:37:37,001 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/requirements.txt
+2021-09-17 20:37:37,001 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/conda-environment.yaml
+2021-09-17 20:37:42,004 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/output.log
+2021-09-17 20:37:43,005 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/conda-environment.yaml
+2021-09-17 20:37:43,179 DEBUG   HandlerThread:53575 [meta.py:_save_conda():87] save conda done
+2021-09-17 20:37:43,179 DEBUG   HandlerThread:53575 [meta.py:probe():249] probe done
+2021-09-17 20:37:43,203 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 20:37:43,203 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: stop_status
+2021-09-17 20:37:43,683 DEBUG   SenderThread:53575 [sender.py:send():182] send: history
+2021-09-17 20:37:43,684 DEBUG   SenderThread:53575 [sender.py:send():182] send: summary
+2021-09-17 20:37:43,688 INFO    SenderThread:53575 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 20:37:43,688 DEBUG   SenderThread:53575 [sender.py:send():182] send: history
+2021-09-17 20:37:43,689 DEBUG   SenderThread:53575 [sender.py:send():182] send: summary
+2021-09-17 20:37:43,689 INFO    SenderThread:53575 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 20:37:43,689 DEBUG   SenderThread:53575 [sender.py:send():182] send: files
+2021-09-17 20:37:43,689 INFO    SenderThread:53575 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-17 20:37:44,005 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/output.log
+2021-09-17 20:37:44,005 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/wandb-summary.json
+2021-09-17 20:37:44,006 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/wandb-metadata.json
+2021-09-17 20:37:44,813 INFO    Thread-11 :53575 [upload_job.py:push():137] Uploaded file /tmp/tmpbbta6o4hwandb/ou1ljle6-wandb-metadata.json
+2021-09-17 20:37:49,251 DEBUG   SenderThread:53575 [sender.py:send():182] send: history
+2021-09-17 20:37:49,251 DEBUG   SenderThread:53575 [sender.py:send():182] send: summary
+2021-09-17 20:37:49,255 INFO    SenderThread:53575 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 20:37:50,007 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/wandb-summary.json
+2021-09-17 20:37:57,099 DEBUG   SenderThread:53575 [sender.py:send():182] send: history
+2021-09-17 20:37:57,100 DEBUG   SenderThread:53575 [sender.py:send():182] send: summary
+2021-09-17 20:37:57,104 INFO    SenderThread:53575 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 20:37:57,306 DEBUG   SenderThread:53575 [sender.py:send():182] send: history
+2021-09-17 20:37:57,307 DEBUG   SenderThread:53575 [sender.py:send():182] send: summary
+2021-09-17 20:37:57,307 INFO    SenderThread:53575 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 20:37:57,308 DEBUG   SenderThread:53575 [sender.py:send():182] send: history
+2021-09-17 20:37:57,308 DEBUG   SenderThread:53575 [sender.py:send():182] send: summary
+2021-09-17 20:37:57,309 INFO    SenderThread:53575 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 20:37:58,010 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/wandb-summary.json
+2021-09-17 20:37:58,684 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-17 20:37:58,685 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: stop_status
+2021-09-17 20:38:00,010 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/output.log
+2021-09-17 20:38:04,247 DEBUG   SenderThread:53575 [sender.py:send():182] send: stats
+2021-09-17 20:38:04,961 DEBUG   SenderThread:53575 [sender.py:send():182] send: history
+2021-09-17 20:38:04,961 DEBUG   SenderThread:53575 [sender.py:send():182] send: summary
+2021-09-17 20:38:04,962 INFO    SenderThread:53575 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 20:38:05,012 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/wandb-summary.json
+2021-09-17 20:38:05,175 WARNING MainThread:53575 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-09-17 20:38:08,013 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/output.log
+2021-09-17 20:38:14,548 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:14,548 DEBUG   SenderThread:53575 [sender.py:send():182] send: telemetry
+2021-09-17 20:38:14,548 DEBUG   SenderThread:53575 [sender.py:send():182] send: exit
+2021-09-17 20:38:14,548 INFO    SenderThread:53575 [sender.py:send_exit():291] handling exit code: 0
+2021-09-17 20:38:14,548 INFO    SenderThread:53575 [sender.py:send_exit():293] handling runtime: 38
+2021-09-17 20:38:14,553 INFO    SenderThread:53575 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 20:38:14,553 INFO    SenderThread:53575 [sender.py:send_exit():303] send defer
+2021-09-17 20:38:14,553 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:14,553 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 20:38:14,553 INFO    HandlerThread:53575 [handler.py:handle_request_defer():143] handle defer: 0
+2021-09-17 20:38:14,554 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: defer
+2021-09-17 20:38:14,554 INFO    SenderThread:53575 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-09-17 20:38:14,554 INFO    SenderThread:53575 [sender.py:transition_state():316] send defer: 1
+2021-09-17 20:38:14,554 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 20:38:14,554 INFO    HandlerThread:53575 [handler.py:handle_request_defer():143] handle defer: 1
+2021-09-17 20:38:14,631 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: defer
+2021-09-17 20:38:14,632 INFO    SenderThread:53575 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-09-17 20:38:14,632 INFO    SenderThread:53575 [sender.py:transition_state():316] send defer: 2
+2021-09-17 20:38:14,632 DEBUG   SenderThread:53575 [sender.py:send():182] send: stats
+2021-09-17 20:38:14,632 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 20:38:14,632 INFO    HandlerThread:53575 [handler.py:handle_request_defer():143] handle defer: 2
+2021-09-17 20:38:14,632 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: defer
+2021-09-17 20:38:14,633 INFO    SenderThread:53575 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-09-17 20:38:14,633 INFO    SenderThread:53575 [sender.py:transition_state():316] send defer: 3
+2021-09-17 20:38:14,633 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 20:38:14,633 INFO    HandlerThread:53575 [handler.py:handle_request_defer():143] handle defer: 3
+2021-09-17 20:38:14,633 DEBUG   SenderThread:53575 [sender.py:send():182] send: summary
+2021-09-17 20:38:14,633 INFO    SenderThread:53575 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-17 20:38:14,634 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: defer
+2021-09-17 20:38:14,634 INFO    SenderThread:53575 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-09-17 20:38:14,634 INFO    SenderThread:53575 [sender.py:transition_state():316] send defer: 4
+2021-09-17 20:38:14,634 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 20:38:14,634 INFO    HandlerThread:53575 [handler.py:handle_request_defer():143] handle defer: 4
+2021-09-17 20:38:14,634 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: defer
+2021-09-17 20:38:14,634 INFO    SenderThread:53575 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-09-17 20:38:14,660 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:15,016 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/output.log
+2021-09-17 20:38:15,016 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/wandb-summary.json
+2021-09-17 20:38:15,118 INFO    SenderThread:53575 [sender.py:transition_state():316] send defer: 5
+2021-09-17 20:38:15,118 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:15,119 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 20:38:15,119 INFO    HandlerThread:53575 [handler.py:handle_request_defer():143] handle defer: 5
+2021-09-17 20:38:15,119 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: defer
+2021-09-17 20:38:15,119 INFO    SenderThread:53575 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-09-17 20:38:15,119 INFO    SenderThread:53575 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-09-17 20:38:15,220 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:16,016 INFO    Thread-8  :53575 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/config.yaml
+2021-09-17 20:38:16,017 INFO    SenderThread:53575 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files
+2021-09-17 20:38:16,017 INFO    SenderThread:53575 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/requirements.txt requirements.txt
+2021-09-17 20:38:16,017 INFO    SenderThread:53575 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/wandb-metadata.json wandb-metadata.json
+2021-09-17 20:38:16,017 INFO    SenderThread:53575 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/wandb-summary.json wandb-summary.json
+2021-09-17 20:38:16,022 INFO    SenderThread:53575 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/output.log output.log
+2021-09-17 20:38:16,029 INFO    SenderThread:53575 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/conda-environment.yaml conda-environment.yaml
+2021-09-17 20:38:16,029 INFO    SenderThread:53575 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/config.yaml config.yaml
+2021-09-17 20:38:16,038 INFO    SenderThread:53575 [sender.py:transition_state():316] send defer: 6
+2021-09-17 20:38:16,038 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:16,039 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 20:38:16,043 INFO    HandlerThread:53575 [handler.py:handle_request_defer():143] handle defer: 6
+2021-09-17 20:38:16,044 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: defer
+2021-09-17 20:38:16,044 INFO    SenderThread:53575 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-09-17 20:38:16,044 INFO    SenderThread:53575 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-17 20:38:16,141 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:16,141 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:16,243 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:16,243 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:16,344 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:16,345 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:16,446 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:16,446 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:16,547 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:16,548 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:16,650 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:16,650 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:16,756 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:16,756 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:16,860 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:16,860 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:16,963 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:16,963 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:17,065 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:17,065 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:17,167 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:17,167 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:17,260 INFO    Thread-13 :53575 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/wandb-summary.json
+2021-09-17 20:38:17,261 INFO    Thread-16 :53575 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/config.yaml
+2021-09-17 20:38:17,268 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:17,269 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:17,315 INFO    Thread-12 :53575 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/requirements.txt
+2021-09-17 20:38:17,370 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:17,370 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:17,375 INFO    Thread-14 :53575 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/output.log
+2021-09-17 20:38:17,443 INFO    Thread-15 :53575 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/files/conda-environment.yaml
+2021-09-17 20:38:17,472 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:17,472 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:17,573 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:17,573 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:17,643 INFO    Thread-7  :53575 [sender.py:transition_state():316] send defer: 7
+2021-09-17 20:38:17,644 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 20:38:17,644 INFO    HandlerThread:53575 [handler.py:handle_request_defer():143] handle defer: 7
+2021-09-17 20:38:17,644 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: defer
+2021-09-17 20:38:17,644 INFO    SenderThread:53575 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-09-17 20:38:17,674 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:17,972 INFO    SenderThread:53575 [sender.py:transition_state():316] send defer: 8
+2021-09-17 20:38:17,972 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:17,973 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 20:38:17,973 INFO    HandlerThread:53575 [handler.py:handle_request_defer():143] handle defer: 8
+2021-09-17 20:38:17,973 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: defer
+2021-09-17 20:38:17,973 INFO    SenderThread:53575 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-09-17 20:38:17,973 INFO    SenderThread:53575 [sender.py:transition_state():316] send defer: 9
+2021-09-17 20:38:17,973 DEBUG   SenderThread:53575 [sender.py:send():182] send: final
+2021-09-17 20:38:17,974 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: defer
+2021-09-17 20:38:17,974 DEBUG   SenderThread:53575 [sender.py:send():182] send: footer
+2021-09-17 20:38:17,974 INFO    HandlerThread:53575 [handler.py:handle_request_defer():143] handle defer: 9
+2021-09-17 20:38:17,974 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: defer
+2021-09-17 20:38:17,974 INFO    SenderThread:53575 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-09-17 20:38:18,074 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: poll_exit
+2021-09-17 20:38:18,075 DEBUG   SenderThread:53575 [sender.py:send_request():196] send_request: poll_exit
+2021-09-17 20:38:18,075 INFO    SenderThread:53575 [file_pusher.py:join():182] waiting for file pusher
+2021-09-17 20:38:18,076 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: get_summary
+2021-09-17 20:38:18,077 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: sampled_history
+2021-09-17 20:38:18,078 DEBUG   HandlerThread:53575 [handler.py:handle_request():126] handle_request: shutdown
+2021-09-17 20:38:18,078 INFO    HandlerThread:53575 [handler.py:finish():683] shutting down handler
+2021-09-17 20:38:18,974 INFO    WriterThread:53575 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/NLP/Summarize-Text-Review/wandb/run-20210917_203723-2o8d7uo0/run-2o8d7uo0.wandb
+2021-09-17 20:38:19,075 INFO    SenderThread:53575 [sender.py:finish():979] shutting down sender
+2021-09-17 20:38:19,075 INFO    SenderThread:53575 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-17 20:38:19,075 INFO    SenderThread:53575 [file_pusher.py:join():182] waiting for file pusher
+2021-09-17 20:38:19,077 INFO    MainThread:53575 [internal.py:handle_exit():76] Internal process exited

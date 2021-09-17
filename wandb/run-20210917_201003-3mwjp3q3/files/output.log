@@ -1,0 +1,35 @@
+
+
+  0%|                                       | 1/1000 [00:40<11:22:08, 40.97s/it]
+
+  0%|                                       | 1/1000 [01:01<17:03:58, 61.50s/it]
+Exception in thread Thread-10:
+Traceback (most recent call last):
+  File "/home/indika/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/home/indika/anaconda3/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 203, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 737, in communicate_stop_status
+    resp = self._communicate(req, timeout=timeout, local=True)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 539, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 544, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/home/indika/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/home/indika/anaconda3/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 185, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 749, in communicate_network_status
+    resp = self._communicate(req, timeout=timeout, local=True)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 539, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/indika/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 544, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
